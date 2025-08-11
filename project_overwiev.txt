@@ -38,3 +38,5 @@ to do:
 - led's
 
 - debug port
+
+- choose shape (try blackpill)
