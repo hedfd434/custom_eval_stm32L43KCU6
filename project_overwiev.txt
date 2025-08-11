@@ -28,3 +28,13 @@ to do:
 - add buttons (NRST. BOOTX, USER_1, USER_2), USER_1 and USER_2 with o ohm resistors as enablers
 
 - check if BOOT0 button should be pulled
+
+- reverse power for ldo
+
+- consider bigger fuse
+
+- connectors with 2 labels
+
+- led's
+
+- debug port
