@@ -1,0 +1,22 @@
+custom_eval_stm32L43KCU6 project overview:
+
+
+
+MCU: STM32L432KCU6 (in 32-UFQFPN (5x5) package)
+
+functionality:
+1. USB port (usb-c if possible, if not use micro) -  for communication and power supply
+2. all of external oscylators (HSE, LSE)
+3. exposed SWDIO port like on blue pill
+4. overall from similar to black pill/arduino mini/or what is the best (just keep the layout of gpio pins compatible with 2.54mm standard)
+5. keep components on one side
+6. add power indicator diode and one control diode
+7. 
+
+to do:
+
+- choose ferrite bead
+
+- learn about usb interface on pcb's
+
+- choose footprint for usb-c USB_C_Receptacle_Molex_105450-0101 (done)
