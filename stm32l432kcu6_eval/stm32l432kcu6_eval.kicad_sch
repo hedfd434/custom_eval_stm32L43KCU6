@@ -73,6 +73,36 @@
 				(justify left top)
 			)
 		)
+		(pin "MCU_USB_DM" bidirectional
+			(at 213.36 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f7ffa614-ab56-475f-873b-5baaa8515fcf")
+		)
+		(pin "MCU_USB_DP" bidirectional
+			(at 213.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b5b83d83-a274-4828-8226-52d4b9f62d94")
+		)
+		(pin "MCU_USB_NOE" bidirectional
+			(at 213.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10389a06-ea8a-48ad-a720-407d30c14fde")
+		)
 		(instances
 			(project "stm32l432kcu6_eval"
 				(path "/8c9f4ed2-db3b-402c-9437-65e91cdde455"

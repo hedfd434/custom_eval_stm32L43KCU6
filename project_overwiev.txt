@@ -20,3 +20,11 @@ to do:
 - learn about usb interface on pcb's
 
 - choose footprint for usb-c USB_C_Receptacle_Molex_105450-0101 (done)
+
+- figure out where to connect a usb_noe
+
+- find pros and cons about connecting usb-c port shield to shield
+
+- add buttons (NRST. BOOTX, USER_1, USER_2), USER_1 and USER_2 with o ohm resistors as enablers
+
+- check if BOOT0 button should be pulled
