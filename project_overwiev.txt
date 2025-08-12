@@ -11,7 +11,11 @@ functionality:
 4. overall from similar to black pill/arduino mini/or what is the best (just keep the layout of gpio pins compatible with 2.54mm standard)
 5. keep components on one side
 6. add power indicator diode and one control diode
-7. 
+7. power pins:
+	put them rather in one section like on stm32 boards
+	- 5 x 3V3
+	- 10 x GND (or more if there is odd number of pins)
+	- 3 x VBUS 5V
 
 to do:
 
@@ -19,15 +23,12 @@ to do:
 
 - learn about usb interface on pcb's
 
-- choose footprint for usb-c USB_C_Receptacle_Molex_105450-0101 (done)
-
 - figure out where to connect a usb_noe
 
 - find pros and cons about connecting usb-c port shield to shield
 
 - add buttons (NRST. BOOTX, USER_1, USER_2), USER_1 and USER_2 with o ohm resistors as enablers
 
-- check if BOOT0 button should be pulled
 
 - reverse power for ldo
 
@@ -37,6 +38,11 @@ to do:
 
 - led's
 
-- debug port
+- choose shape (try blackpill, different amount of gpio pins)
 
-- choose shape (try blackpill)
+
+done:
+- choose footprint for usb-c USB_C_Receptacle_Molex_105450-0101 (done)
+- check if BOOT0 button should be pulled (just pull it down ) (done)
+- debug port (done)
+

@@ -5,8 +5,68 @@
 	(uuid "8c9f4ed2-db3b-402c-9437-65e91cdde455")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 196.85 138.43) (xy 196.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f981752-337d-4249-86e2-04ccce1fef73")
+	)
+	(wire
+		(pts
+			(xy 248.92 99.06) (xy 248.92 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4d6c0d-1438-45d4-a7ef-f06859eb1a76")
+	)
+	(wire
+		(pts
+			(xy 203.2 129.54) (xy 203.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5835716e-a2f1-4ff9-a871-3abb9b1ed6b7")
+	)
+	(wire
+		(pts
+			(xy 237.49 138.43) (xy 196.85 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b6d1eb-d9cf-4c33-8e0a-2df34af5bdb9")
+	)
+	(wire
+		(pts
+			(xy 213.36 99.06) (xy 248.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89fbe492-1697-4f7d-8737-8e627e83be9b")
+	)
+	(wire
+		(pts
+			(xy 237.49 129.54) (xy 203.2 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc23055c-a1a2-4dbc-9670-8fedfc5ee0aa")
+	)
 	(sheet
-		(at 181.61 132.08)
+		(at 226.06 71.12)
 		(size 29.21 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +78,7 @@
 		)
 		(uuid "183e0932-8d83-4d6e-b474-eb2ea87b66f1")
 		(property "Sheetname" "power_usb"
-			(at 181.61 131.3684 0)
+			(at 226.06 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +87,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 181.61 150.4446 0)
+			(at 226.06 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +133,27 @@
 				(justify left top)
 			)
 		)
-		(pin "MCU_USB_DM" bidirectional
+		(pin "SWDIO" bidirectional
+			(at 196.85 111.76 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "04448e20-7335-4f03-bc1a-6858a2d89398")
+		)
+		(pin "SWCLK" bidirectional
+			(at 203.2 111.76 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60062f80-97a0-427e-9a82-78dd15dc1610")
+		)
+		(pin "PAX(BUS)" bidirectional
 			(at 213.36 99.06 0)
 			(effects
 				(font
@@ -81,27 +161,7 @@
 				)
 				(justify right)
 			)
-			(uuid "f7ffa614-ab56-475f-873b-5baaa8515fcf")
-		)
-		(pin "MCU_USB_DP" bidirectional
-			(at 213.36 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b5b83d83-a274-4828-8226-52d4b9f62d94")
-		)
-		(pin "MCU_USB_NOE" bidirectional
-			(at 213.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "10389a06-ea8a-48ad-a720-407d30c14fde")
+			(uuid "403a9f36-474e-4e9b-8cf8-61a6ab445f17")
 		)
 		(instances
 			(project "stm32l432kcu6_eval"
@@ -140,6 +200,36 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "SWCLK" bidirectional
+			(at 237.49 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "03fd6068-4255-4213-aac3-17e601ee4391")
+		)
+		(pin "SWDIO" bidirectional
+			(at 237.49 138.43 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "66fa95fc-c68d-4bf1-9e22-1814803dc04e")
+		)
+		(pin "PAX(BUS)" bidirectional
+			(at 248.92 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1fc704ea-0a8b-4fc0-b2f3-cf536268188f")
 		)
 		(instances
 			(project "stm32l432kcu6_eval"

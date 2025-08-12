@@ -2696,7 +2696,7 @@
 	)
 	(global_label "USB_D+"
 		(shape input)
-		(at 143.51 104.14 180)
+		(at 143.51 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2706,7 +2706,7 @@
 		)
 		(uuid "7b73bdc8-add8-47f5-a3dc-08e978bb74e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.9048 104.14 0)
+			(at 132.9048 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2740,7 @@
 	)
 	(global_label "USB_D-"
 		(shape input)
-		(at 143.51 99.06 180)
+		(at 143.51 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2750,7 +2750,7 @@
 		)
 		(uuid "8e944dcc-f5b1-4161-b48c-f8e6f1c2b8af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.9048 99.06 0)
+			(at 132.9048 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +2784,7 @@
 	)
 	(hierarchical_label "MCU_USB_DP"
 		(shape bidirectional)
-		(at 161.29 102.87 0)
+		(at 161.29 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2796,7 +2796,7 @@
 	)
 	(hierarchical_label "MCU_USB_DM"
 		(shape bidirectional)
-		(at 161.29 100.33 0)
+		(at 161.29 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
