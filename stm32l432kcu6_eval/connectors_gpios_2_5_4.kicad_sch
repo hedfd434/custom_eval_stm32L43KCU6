@@ -3640,13 +3640,13 @@
 		(uuid "217de18e-721d-4ec1-88a1-e261d74a9841")
 	)
 	(label "{NRST PH3(BOOT) PC14(OSC_IN) PC15(OSC_OUT) }"
-		(at 201.93 87.63 180)
+		(at 201.93 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "219f0551-3530-4339-83f1-39de19cfebb7")
 	)
