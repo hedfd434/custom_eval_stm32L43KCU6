@@ -27,7 +27,7 @@ to do:
 
 - find pros and cons about connecting usb-c port shield to shield
 
-- add buttons (NRST. BOOTX, USER_1, USER_2), USER_1 and USER_2 with o ohm resistors as enablers
+- add buttons (NRST. BOOTX, USER_1, USER_1 and USER_2 with o ohm resistors as enablers
 
 
 - reverse power for ldo
@@ -36,17 +36,16 @@ to do:
 
 - connectors with 2 labels
 
-- led's
 
-- choose shape (try blackpill, different amount of gpio pins)
-
-- calculate load capacitors values
-
-- add parallel bulk capacitor for ldo 1uf should be good
 
 
 done:
 - choose footprint for usb-c USB_C_Receptacle_Molex_105450-0101 (done)
 - check if BOOT0 button should be pulled (just pull it down ) (done)
 - debug port (done)
+- led's (done)
+
+- choose shape (try blackpill, different amount of gpio pins) (kinda done)
+
+- calculate load capacitors values (done)
 

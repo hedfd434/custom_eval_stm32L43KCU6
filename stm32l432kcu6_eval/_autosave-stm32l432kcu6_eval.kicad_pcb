@@ -1326,7 +1326,7 @@
 	(footprint "custom_part_library_1:B3U1000PM_3D_MODEL"
 		(layer "F.Cu")
 		(uuid "138b7712-e9bc-436c-8e6d-d36fcc814374")
-		(at 168.7 110.775 90)
+		(at 169.4 112.9 90)
 		(descr "B3U-1000PM-3")
 		(tags "Switch")
 		(property "Reference" "S3"
@@ -1632,7 +1632,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "18aa6f20-567e-4032-a112-1d922b973ecf")
-		(at 192.125 96.9)
+		(at 173.7 112.7)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
@@ -3917,7 +3917,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "70d3751c-0cd0-4e7d-a2de-5ef43a2409d4")
-		(at 178.725 111)
+		(at 167.225 96.4)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -4130,7 +4130,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8637e79c-fc5c-4d99-ae99-22e094c593cb")
-		(at 175.8 110.775 90)
+		(at 165.8 92.025 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -4578,7 +4578,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "92f116fa-5e84-4a9c-84b9-9dde2ee5a04a")
-		(at 186.8 90.2)
+		(at 186.6 99.7)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -5430,7 +5430,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c48d4fbc-1298-4b48-934c-6de1c8b60af0")
-		(at 186.8 101.5)
+		(at 173.9 114.7)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -5856,7 +5856,7 @@
 	(footprint "custom_part_library_1:B3U1000PM_3D_MODEL"
 		(layer "F.Cu")
 		(uuid "c6c3db2b-6985-4bd3-bc2f-0aca9f697e4d")
-		(at 129.297918 92.802082)
+		(at 124.9 88.3)
 		(descr "B3U-1000PM-3")
 		(tags "Switch")
 		(property "Reference" "S1"
@@ -8086,7 +8086,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "eaa1323d-dedc-4fda-a743-a40aa8237ff8")
-		(at 194.775 89)
+		(at 186.8 97.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
