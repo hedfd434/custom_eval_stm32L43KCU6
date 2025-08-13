@@ -14,8 +14,8 @@ functionality:
 7. power pins:
 	put them rather in one section like on stm32 boards
 	- 5 x 3V3
-	- 10 x GND (or more if there is odd number of pins)
-	- 3 x VBUS 5V
+	- 7 x GND (or more if there is odd number of pins)
+	- 2 x VBUS 5V
 
 to do:
 
@@ -39,6 +39,10 @@ to do:
 - led's
 
 - choose shape (try blackpill, different amount of gpio pins)
+
+- calculate load capacitors values
+
+- add parallel bulk capacitor for ldo 1uf should be good
 
 
 done:

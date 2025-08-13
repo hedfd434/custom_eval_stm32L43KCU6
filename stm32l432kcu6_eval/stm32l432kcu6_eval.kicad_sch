@@ -5,9 +5,15 @@
 	(uuid "8c9f4ed2-db3b-402c-9437-65e91cdde455")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 154.94 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75899eab-4b29-464e-afd7-1c2b0d786c64")
+	)
 	(wire
 		(pts
-			(xy 196.85 138.43) (xy 196.85 111.76)
+			(xy 116.84 134.62) (xy 116.84 107.95)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +23,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 99.06) (xy 248.92 123.19)
+			(xy 185.42 95.25) (xy 185.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +33,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 129.54) (xy 203.2 111.76)
+			(xy 179.07 119.38) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "563fb865-4c95-4b14-918c-48abe9f6d66a")
+	)
+	(wire
+		(pts
+			(xy 120.65 125.73) (xy 120.65 107.95)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +53,17 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 138.43) (xy 196.85 138.43)
+			(xy 154.94 95.25) (xy 154.94 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c54939-ff42-4439-9185-5e41a851af40")
+	)
+	(wire
+		(pts
+			(xy 162.56 134.62) (xy 116.84 134.62)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +73,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 99.06) (xy 248.92 99.06)
+			(xy 138.43 95.25) (xy 154.94 95.25)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +83,27 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 129.54) (xy 203.2 129.54)
+			(xy 172.72 119.38) (xy 172.72 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8eaa670-6dfe-4542-a3bf-abd3d5acaecb")
+	)
+	(wire
+		(pts
+			(xy 179.07 99.06) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa8ce20-7dab-4156-9ee3-dbe8055a86f2")
+	)
+	(wire
+		(pts
+			(xy 162.56 125.73) (xy 120.65 125.73)
 		)
 		(stroke
 			(width 0)
@@ -65,8 +111,28 @@
 		)
 		(uuid "dc23055c-a1a2-4dbc-9670-8fedfc5ee0aa")
 	)
+	(wire
+		(pts
+			(xy 172.72 102.87) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e999b21b-e2e1-4a77-90aa-d4b4f95e5570")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.25) (xy 185.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16df072-0d5f-4d06-81ca-d9c519202707")
+	)
 	(sheet
-		(at 226.06 71.12)
+		(at 151.13 67.31)
 		(size 29.21 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -78,7 +144,7 @@
 		)
 		(uuid "183e0932-8d83-4d6e-b474-eb2ea87b66f1")
 		(property "Sheetname" "power_usb"
-			(at 226.06 70.4084 0)
+			(at 151.13 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,13 +153,23 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 226.06 89.4846 0)
+			(at 151.13 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "PAX(BUS)" bidirectional
+			(at 154.94 85.09 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e65249e8-a45a-4c39-9113-146325b71337")
 		)
 		(instances
 			(project "stm32l432kcu6_eval"
@@ -104,7 +180,7 @@
 		)
 	)
 	(sheet
-		(at 187.96 85.09)
+		(at 113.03 81.28)
 		(size 25.4 26.67)
 		(fields_autoplaced yes)
 		(stroke
@@ -116,7 +192,7 @@
 		)
 		(uuid "79b7a93d-0e3f-456f-bb72-35afe7258d3f")
 		(property "Sheetname" "mcu_osccillators"
-			(at 187.96 84.3784 0)
+			(at 113.03 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,7 +201,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_osccillators.kicad_sch"
-			(at 187.96 112.3446 0)
+			(at 113.03 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -134,7 +210,7 @@
 			)
 		)
 		(pin "SWDIO" bidirectional
-			(at 196.85 111.76 270)
+			(at 116.84 107.95 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,7 +220,7 @@
 			(uuid "04448e20-7335-4f03-bc1a-6858a2d89398")
 		)
 		(pin "SWCLK" bidirectional
-			(at 203.2 111.76 270)
+			(at 120.65 107.95 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -154,7 +230,7 @@
 			(uuid "60062f80-97a0-427e-9a82-78dd15dc1610")
 		)
 		(pin "PAX(BUS)" bidirectional
-			(at 213.36 99.06 0)
+			(at 138.43 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -162,6 +238,26 @@
 				(justify right)
 			)
 			(uuid "403a9f36-474e-4e9b-8cf8-61a6ab445f17")
+		)
+		(pin "PHCNX" bidirectional
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0bbef69-5053-4dee-8dcf-a6bc99d92961")
+		)
+		(pin "PBX(BUS)" bidirectional
+			(at 138.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aeed258c-a514-4df5-929b-d43aad667dfa")
 		)
 		(instances
 			(project "stm32l432kcu6_eval"
@@ -172,7 +268,7 @@
 		)
 	)
 	(sheet
-		(at 237.49 123.19)
+		(at 162.56 119.38)
 		(size 29.21 24.13)
 		(fields_autoplaced yes)
 		(stroke
@@ -184,7 +280,7 @@
 		)
 		(uuid "d780161e-b7fd-448c-b7ed-1aa3165a374c")
 		(property "Sheetname" "connectors_gpios_2_5_4"
-			(at 237.49 122.4784 0)
+			(at 162.56 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -193,7 +289,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors_gpios_2_5_4.kicad_sch"
-			(at 237.49 147.9046 0)
+			(at 162.56 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +298,7 @@
 			)
 		)
 		(pin "SWCLK" bidirectional
-			(at 237.49 129.54 180)
+			(at 162.56 125.73 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,7 +308,7 @@
 			(uuid "03fd6068-4255-4213-aac3-17e601ee4391")
 		)
 		(pin "SWDIO" bidirectional
-			(at 237.49 138.43 180)
+			(at 162.56 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -222,7 +318,7 @@
 			(uuid "66fa95fc-c68d-4bf1-9e22-1814803dc04e")
 		)
 		(pin "PAX(BUS)" bidirectional
-			(at 248.92 123.19 90)
+			(at 185.42 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -230,6 +326,26 @@
 				(justify right)
 			)
 			(uuid "1fc704ea-0a8b-4fc0-b2f3-cf536268188f")
+		)
+		(pin "PBX(BUS)" bidirectional
+			(at 172.72 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8ffca2c5-ec54-45de-b898-262f2b0a60f6")
+		)
+		(pin "PHCNX" bidirectional
+			(at 179.07 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "83f700a7-06be-412c-83d4-a345dec45bd9")
 		)
 		(instances
 			(project "stm32l432kcu6_eval"
