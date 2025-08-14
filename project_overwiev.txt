@@ -27,12 +27,11 @@ to do:
 
 - find pros and cons about connecting usb-c port shield to shield
 
-- add buttons (NRST. BOOTX, USER_1, USER_1 and USER_2 with o ohm resistors as enablers
 
 
 - reverse power for ldo
 
-- consider bigger fuse
+- consider bigger fuse (buy 2 types in 0603 package)
 
 - connectors with 2 labels
 
@@ -48,4 +47,6 @@ done:
 - choose shape (try blackpill, different amount of gpio pins) (kinda done)
 
 - calculate load capacitors values (done)
+- add buttons (NRST. BOOTX, USER_1, USER_1 and USER_2 with o ohm resistors as enablers (done)
+
 

@@ -1,3 +1,3 @@
 1. eval board one 2.5h session
-2. machine states one session 2.5h
-3. training lunges, push-ups, remote bike, tt imitation
+2. training
+3. packing
