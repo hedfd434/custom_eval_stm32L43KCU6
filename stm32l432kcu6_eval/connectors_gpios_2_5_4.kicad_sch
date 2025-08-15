@@ -2003,6 +2003,12 @@
 		(uuid "a252393c-54ed-406d-8611-fc263622c7a1")
 	)
 	(junction
+		(at 229.87 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e267a3bf-171c-4d88-b1c7-9ce86b65d020")
+	)
+	(junction
 		(at 120.65 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2283,16 +2289,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 116.84) (xy 229.87 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06bb8fc3-987e-4aef-b90a-1c1972b748ef")
-	)
-	(wire
-		(pts
 			(xy 212.09 40.64) (xy 214.63 40.64)
 		)
 		(stroke
@@ -2400,6 +2396,16 @@
 			(type default)
 		)
 		(uuid "1eb68a48-3387-46a1-8105-e3d5a78cafc8")
+	)
+	(wire
+		(pts
+			(xy 227.33 116.84) (xy 229.87 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebd8852-cf0e-4cb9-91f5-4616d403016a")
 	)
 	(bus
 		(pts
@@ -2701,6 +2707,16 @@
 		)
 		(uuid "57486618-8624-482c-8585-c679a8426960")
 	)
+	(wire
+		(pts
+			(xy 229.87 116.84) (xy 229.87 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58211276-a231-4560-a92a-04d959cd835e")
+	)
 	(bus
 		(pts
 			(xy 116.84 67.31) (xy 116.84 69.85)
@@ -2883,6 +2899,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 116.84) (xy 234.95 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d6556b-6d46-4bc9-9407-02ae26e45547")
+	)
+	(wire
+		(pts
 			(xy 46.99 121.92) (xy 49.53 121.92)
 		)
 		(stroke
@@ -3020,16 +3046,6 @@
 			(type default)
 		)
 		(uuid "99a4efbc-a850-47b4-942c-9c421934cd13")
-	)
-	(wire
-		(pts
-			(xy 229.87 116.84) (xy 234.95 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bbcdf81-04ec-4b6f-b024-f7b2f88860fe")
 	)
 	(bus
 		(pts
@@ -3946,7 +3962,7 @@
 		)
 		(uuid "8308d46e-b81a-40fb-81ad-0ee3a59ef94b")
 	)
-	(label "PH3(BOOT)"
+	(label "PH3(BOOT0)"
 		(at 212.09 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3958,7 +3974,7 @@
 		(uuid "87722612-6a72-4d94-8f4e-f2027e22f18d")
 	)
 	(label "SWCLK"
-		(at 49.53 119.38 0)
+		(at 49.53 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4233,7 +4249,7 @@
 		(uuid "d091099d-1df5-4e47-88a4-a5c0d1ffccc8")
 	)
 	(label "SWDIO"
-		(at 49.53 121.92 0)
+		(at 49.53 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4255,7 +4271,7 @@
 		(uuid "d533e86a-ebb5-46fa-9b91-13b90d72e517")
 	)
 	(label "PH3(BOOT0)"
-		(at 229.87 116.84 180)
+		(at 227.33 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

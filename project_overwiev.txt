@@ -27,7 +27,7 @@ to do:
 
 - find pros and cons about connecting usb-c port shield to shield
 
-
+- check sizing
 
 - reverse power for ldo
 
