@@ -35,6 +35,7 @@ to do:
 
 - connectors with 2 labels
 
+- make smooth edges
 
 
 

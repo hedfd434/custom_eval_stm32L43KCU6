@@ -4358,7 +4358,7 @@
 		(uuid "87722612-6a72-4d94-8f4e-f2027e22f18d")
 	)
 	(label "SWCLK"
-		(at 49.53 121.92 0)
+		(at 49.53 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4633,7 +4633,7 @@
 		(uuid "d091099d-1df5-4e47-88a4-a5c0d1ffccc8")
 	)
 	(label "SWDIO"
-		(at 49.53 119.38 0)
+		(at 49.53 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
