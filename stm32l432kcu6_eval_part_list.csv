@@ -1,0 +1,20 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP
+"C1,C2,C3,C8,C9,C10,C11",100nF,~,Capacitor_SMD:C_0603_1608Metric,7,https://www.tme.eu/pl/details/grm033r6ya104ke14d/kondensatory-mlcc-smd/murata/
+"C4,C5",20pF,~,Capacitor_SMD:C_0402_1005Metric,2,https://www.tme.eu/pl/details/gjm1555c1h200fb01d/kondensatory-mlcc-smd/murata/
+C6,4.7uF,~,Capacitor_SMD:C_0603_1608Metric,1,https://www.tme.eu/pl/details/grm188r6ya475ke15d/kondensatory-mlcc-smd/murata/
+C7,1uF,~,Capacitor_SMD:C_0603_1608Metric,1,https://www.tme.eu/pl/details/gcm188r71e105ka64d/kondensatory-mlcc-smd/murata/
+"D1,D2",LED,~,LED_SMD:LED_0603_1608Metric,2,null
+F1,250mA,~,Fuse:Fuse_0603_1608Metric,1,https://www.tme.eu/pl/en/details/tr-0603fa250-r/0603-smd-fuses-ultra-fast/eaton-bussmann/
+FB1,value,~,Inductor_SMD:L_0603_1608Metric,1,https://www.tme.eu/pl/details/blm18ba470sn1d/ferryty-koraliki/murata/
+J1,USB_B_Micro,~,Connector_USB:USB_Micro-B_Molex-105017-0001,1,https://www.tme.eu/pl/en/details/mx-105017-0001/usb-ieee1394-connectors/molex/105017-0001/
+"J2,J3",Conn_01x20_Pin,~,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical,2,null
+J4,Conn_01x04_Pin,~,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal,1,null
+"R1,R3,R6",0ohm,~,Resistor_SMD:R_0603_1608Metric,3,https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd/royalohm/0603saj0000t5e/
+"R2,R4",1K,~,Resistor_SMD:R_0603_1608Metric,2,https://www.tme.eu/pl/details/0201wmf1001tee/rezystory-smd/royalohm/
+R5,10K,~,Resistor_SMD:R_0603_1608Metric,1,https://www.tme.eu/pl/details/b3u-1000pm/mikroprzelaczniki-tact/omron-electronic-components/
+"S1,S2,S3",B3U-1000PM,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf,custom_part_library_1:B3U1000PM_3D_MODEL,3,https://www.tme.eu/pl/details/usblc6-2sc6y/diody-zabezpieczajace-drabinki/stmicroelectronics/
+U1,USBLC6-2SC6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,Package_TO_SOT_SMD:SOT-23-6,1,https://www.tme.eu/pl/en/details/usblc6-2sc6/protection-diodes-arrays/stmicroelectronics/
+U2,XC6206PxxxMR,https://www.torexsemi.com/file/xc6206/XC6206.pdf,Package_TO_SOT_SMD:SOT-23-3,1,https://www.tme.eu/pl/details/xc6206p332mr-g/stabilizatory-napiecia-nieregulowane-ldo/torex/
+U3,STM32L432KCUx,https://www.st.com/resource/en/datasheet/stm32l432kc.pdf,Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.65x3.65mm_ThermalVias,1,null
+Y1,ASFL1-40.000MHZ-EC-T,https://abracon.com/Oscillators/ASFL1.pdf,ASFL1,1,null
+Y2,FC-135_32.7680KA-A3_12_5_pF,https://support.epson.biz/td/api/doc_check.php?dl=brief_fc-135r_en.pdf,FC_135_CLOCK_KI_CAD:FC-135_32_7680KA-A3,1,ali (12.5pF)

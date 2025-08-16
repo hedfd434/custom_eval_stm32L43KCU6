@@ -1,3 +1,0 @@
-1. eval board one 2.5h session
-2. training
-3. packing

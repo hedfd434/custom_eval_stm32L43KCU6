@@ -21,21 +21,22 @@ to do:
 
 - choose ferrite bead
 
-- learn about usb interface on pcb's
+
 
 - figure out where to connect a usb_noe
 
-- find pros and cons about connecting usb-c port shield to shield
 
-- check sizing
-
-- reverse power for ldo
 
 - consider bigger fuse (buy 2 types in 0603 package)
 
-- connectors with 2 labels
 
-- make smooth edges
+- put logo on it
+
+- finish excel with elements
+
+
+
+
 
 
 
@@ -49,5 +50,11 @@ done:
 
 - calculate load capacitors values (done)
 - add buttons (NRST. BOOTX, USER_1, USER_1 and USER_2 with o ohm resistors as enablers (done)
+- learn about usb interface on pcb's (done...)
+- check sizing (done)
+- reverse power for ldo (done)
+- connectors with 2 labels (done, finally 1 label)
+- make smooth edges (done)
+- find pros and cons about connecting usb-c port shield to shield (connected to gnd with micro usb, in others evals it is connected to gnd)
 
 
