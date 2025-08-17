@@ -1,4 +1,4 @@
-Reference,Value,Datasheet,Footprint,Qty,DNP
+Reference,Value,Datasheet,Footprint,Qty,LINK
 "C1,C2,C3,C8,C9,C10,C11",100nF,~,Capacitor_SMD:C_0603_1608Metric,7,https://www.tme.eu/pl/details/grm033r6ya104ke14d/kondensatory-mlcc-smd/murata/
 "C4,C5",20pF,~,Capacitor_SMD:C_0402_1005Metric,2,https://www.tme.eu/pl/details/gjm1555c1h200fb01d/kondensatory-mlcc-smd/murata/
 C6,4.7uF,~,Capacitor_SMD:C_0603_1608Metric,1,https://www.tme.eu/pl/details/grm188r6ya475ke15d/kondensatory-mlcc-smd/murata/
