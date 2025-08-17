@@ -3,7 +3,7 @@ Reference,Value,Datasheet,Footprint,Qty,LINK
 "C4,C5",20pF,~,Capacitor_SMD:C_0402_1005Metric,2,https://www.tme.eu/pl/details/gjm1555c1h200fb01d/kondensatory-mlcc-smd/murata/
 C6,4.7uF,~,Capacitor_SMD:C_0603_1608Metric,1,https://www.tme.eu/pl/details/grm188r6ya475ke15d/kondensatory-mlcc-smd/murata/
 C7,1uF,~,Capacitor_SMD:C_0603_1608Metric,1,https://www.tme.eu/pl/details/gcm188r71e105ka64d/kondensatory-mlcc-smd/murata/
-"D1,D2",LED,~,LED_SMD:LED_0603_1608Metric,2,null
+"D1,D2",LED,~,LED_SMD:LED_0603_1608Metric,2,null (different colours)
 F1,250mA,~,Fuse:Fuse_0603_1608Metric,1,https://www.tme.eu/pl/en/details/tr-0603fa250-r/0603-smd-fuses-ultra-fast/eaton-bussmann/
 FB1,value,~,Inductor_SMD:L_0603_1608Metric,1,https://www.tme.eu/pl/details/blm18ba470sn1d/ferryty-koraliki/murata/
 J1,USB_B_Micro,~,Connector_USB:USB_Micro-B_Molex-105017-0001,1,https://www.tme.eu/pl/en/details/mx-105017-0001/usb-ieee1394-connectors/molex/105017-0001/
