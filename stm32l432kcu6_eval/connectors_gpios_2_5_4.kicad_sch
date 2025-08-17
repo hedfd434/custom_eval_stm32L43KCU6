@@ -5231,7 +5231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34be7f81-c135-4087-9e14-27ab60ef3a0a")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 123.19 121.92 90)
 			(effects
 				(font
@@ -5283,7 +5283,7 @@
 		(instances
 			(project "stm32l432kcu6_eval"
 				(path "/8c9f4ed2-db3b-402c-9437-65e91cdde455/d780161e-b7fd-448c-b7ed-1aa3165a374c"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5431,7 +5431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fba27e4-9da1-4930-8e75-26bd2425b6fd")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 114.3 111.76 90)
 			(effects
 				(font
@@ -5483,7 +5483,7 @@
 		(instances
 			(project "stm32l432kcu6_eval"
 				(path "/8c9f4ed2-db3b-402c-9437-65e91cdde455/d780161e-b7fd-448c-b7ed-1aa3165a374c"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5565,7 +5565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61c76811-77a6-472c-a07f-11f4bc988323")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 237.49 120.6499 0)
 			(effects
 				(font
@@ -5619,7 +5619,7 @@
 		(instances
 			(project "stm32l432kcu6_eval"
 				(path "/8c9f4ed2-db3b-402c-9437-65e91cdde455/d780161e-b7fd-448c-b7ed-1aa3165a374c"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6283,7 +6283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a50bdf99-fc0b-4e35-aca0-383b3f3a9cbf")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 57.15 165.1 90)
 			(effects
 				(font
@@ -6335,7 +6335,7 @@
 		(instances
 			(project "stm32l432kcu6_eval"
 				(path "/8c9f4ed2-db3b-402c-9437-65e91cdde455/d780161e-b7fd-448c-b7ed-1aa3165a374c"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6661,7 +6661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d11d6cd0-1f46-4eb6-9ebc-48dc9e3e7b5a")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 114.3 121.92 90)
 			(effects
 				(font
@@ -6713,7 +6713,7 @@
 		(instances
 			(project "stm32l432kcu6_eval"
 				(path "/8c9f4ed2-db3b-402c-9437-65e91cdde455/d780161e-b7fd-448c-b7ed-1aa3165a374c"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6985,7 +6985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3be2a27-e758-42d0-88ab-849a4e632bce")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 123.19 111.76 90)
 			(effects
 				(font
@@ -7037,7 +7037,7 @@
 		(instances
 			(project ""
 				(path "/8c9f4ed2-db3b-402c-9437-65e91cdde455/d780161e-b7fd-448c-b7ed-1aa3165a374c"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)

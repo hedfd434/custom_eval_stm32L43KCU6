@@ -23,7 +23,7 @@ to do:
 
 
 
-- figure out where to connect a usb_noe
+- figure out where to connect a usb_noe (MCU) and usb_id (usb micro)
 
 
 
