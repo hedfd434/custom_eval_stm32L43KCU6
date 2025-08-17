@@ -19,7 +19,7 @@ functionality:
 
 to do:
 
-- choose ferrite bead
+
 
 
 
@@ -27,12 +27,11 @@ to do:
 
 
 
-- consider bigger fuse (buy 2 types in 0603 package)
-
+- consider bigger fuse (buy 2 types in 0603 package) (finally 300mA in the same package)
 
 - put logo on it
 
-- finish excel with elements
+- finish excel with elements (update after resistor changesS)
 
 
 
@@ -56,5 +55,6 @@ done:
 - connectors with 2 labels (done, finally 1 label)
 - make smooth edges (done)
 - find pros and cons about connecting usb-c port shield to shield (connected to gnd with micro usb, in others evals it is connected to gnd)
+- choose ferrite bead (done)
 
 
