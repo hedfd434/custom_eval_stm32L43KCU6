@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "demo")(type "KiCad")(uri "C:/Users/kubaw/Desktop/custom_eval_stm32L43KCU6/demo.pretty")(options "")(descr ""))
+)

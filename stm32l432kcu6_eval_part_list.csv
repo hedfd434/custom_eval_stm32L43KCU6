@@ -11,7 +11,7 @@ J1,USB_B_Micro,~,Connector_USB:USB_Micro-B_Molex-105017-0001,1,https://www.tme.e
 J4,Conn_01x04_Pin,~,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal,1,null
 "R1,R2,R3,R5,R8",0ohm,~,Resistor_SMD:R_0603_1608Metric,3,https://www.tme.eu/pl/details/smd0603-0r/rezystory-smd/royalohm/0603saj0000t5e/
 "R4,R6",1K,~,Resistor_SMD:R_0603_1608Metric,2,https://www.tme.eu/pl/details/0201wmf1001tee/rezystory-smd/royalohm/
-R5,10K,~,Resistor_SMD:R_0603_1608Metric,1,https://www.tme.eu/pl/details/b3u-1000pm/mikroprzelaczniki-tact/omron-electronic-components/
+R7,10K,~,Resistor_SMD:R_0603_1608Metric,1,https://www.tme.eu/pl/details/b3u-1000pm/mikroprzelaczniki-tact/omron-electronic-components/
 "S1,S2,S3",B3U-1000PM,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf,custom_part_library_1:B3U1000PM_3D_MODEL,3,https://www.tme.eu/pl/details/usblc6-2sc6y/diody-zabezpieczajace-drabinki/stmicroelectronics/
 U1,USBLC6-2SC6,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,Package_TO_SOT_SMD:SOT-23-6,1,https://www.tme.eu/pl/en/details/usblc6-2sc6/protection-diodes-arrays/stmicroelectronics/
 U2,XC6206PxxxMR,https://www.torexsemi.com/file/xc6206/XC6206.pdf,Package_TO_SOT_SMD:SOT-23-3,1,https://www.tme.eu/pl/details/xc6206p332mr-g/stabilizatory-napiecia-nieregulowane-ldo/torex/
