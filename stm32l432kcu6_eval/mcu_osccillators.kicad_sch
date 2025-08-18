@@ -3674,6 +3674,17 @@
 		)
 		(uuid "6ea78179-c8d4-414f-8292-449e44813091")
 	)
+	(label "PH3(BOOT0)"
+		(at 228.6 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70288781-cfb8-4f6c-b59c-c226d1a73f17")
+	)
 	(label "PA5"
 		(at 77.47 132.08 0)
 		(fields_autoplaced yes)
@@ -3960,7 +3971,7 @@
 		)
 		(uuid "bf4a859c-0de0-484e-b641-597f31175d5c")
 	)
-	(label "PH3(BOOT)"
+	(label "PH3(BOOT0)"
 		(at 231.14 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3970,17 +3981,6 @@
 			(justify left bottom)
 		)
 		(uuid "c1e372af-fa1f-4ab4-9ba1-9e157864a0db")
-	)
-	(label "PH3(BOOT0)"
-		(at 228.6 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c3439522-7c6e-44dd-aa93-d420566adcb5")
 	)
 	(label "PA13"
 		(at 226.06 67.31 0)
@@ -4103,7 +4103,7 @@
 		)
 		(uuid "dde56c19-63a3-4ed9-a6da-3a231d03f7c9")
 	)
-	(label "{NRST PH3(BOOT) PC14(OSC_IN) PC15(OSC_OUT) }"
+	(label "{NRST PH3(BOOT0) PC14(OSC_IN) PC15(OSC_OUT) }"
 		(at 257.81 105.41 180)
 		(fields_autoplaced yes)
 		(effects

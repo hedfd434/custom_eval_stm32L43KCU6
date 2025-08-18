@@ -2450,6 +2450,7 @@
 	)
 	(label "PA4"
 		(at 73.66 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
