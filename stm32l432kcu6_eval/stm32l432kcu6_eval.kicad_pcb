@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.6062)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -58,29 +58,29 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.2104)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "In1.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.24)
+				(thickness 1.065)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "In2.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.2104)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -11538,6 +11538,16 @@
 		(uuid "9975e607-2cf4-4a3e-a062-e608745a2ef6")
 	)
 	(gr_line
+		(start 144.2 100)
+		(end 144.2 99.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "9b66322a-2d42-4e5c-81fd-9f428d81e430")
+	)
+	(gr_line
 		(start 161.43 88.57)
 		(end 161.43 91.11)
 		(stroke
@@ -11596,6 +11606,16 @@
 		)
 		(layer "User.2")
 		(uuid "bcf2bb05-4bf0-41b2-9959-f95c7da4a85e")
+	)
+	(gr_line
+		(start 155.8 100)
+		(end 155.8 99.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "c0d0cddf-5f86-40a0-b1a9-3ae75ec6003e")
 	)
 	(gr_line
 		(start 138.57 86.03)
@@ -11758,6 +11778,16 @@
 		(uuid "f2154023-6cdb-400a-9435-5a9653bf126d")
 	)
 	(gr_line
+		(start 150 100)
+		(end 144.2 100)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "f6b4ded0-c5bd-4b01-8864-37cca3a7d5d8")
+	)
+	(gr_line
 		(start 161.43 83.49)
 		(end 161.43 86.03)
 		(stroke
@@ -11777,8 +11807,20 @@
 		(layer "User.2")
 		(uuid "fcfaef09-2094-409b-9ddc-696d19fe75b8")
 	)
+	(gr_text "https://github.com/hedfd434"
+		(at 144.2 99.5 -90)
+		(layer "B.SilkS")
+		(uuid "0919043c-01cb-465a-a255-5ac182fbc895")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "stm32L432KCU6_EVAL"
-		(at 155.715 100 270)
+		(at 155.8 100 270)
 		(layer "B.SilkS")
 		(uuid "0d48a21b-9fb3-4038-9f07-13c3f7879826")
 		(effects

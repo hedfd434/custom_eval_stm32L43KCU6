@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.4"
     },
-    "CreationDate": "2025-08-18T19:06:46+02:00"
+    "CreationDate": "2025-08-18T19:59:25+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,7 +18,7 @@
       "Y": 53.05
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.6,
+    "BoardThickness": 1.6062,
     "Finish": "None"
   },
   "DesignRules": [
@@ -118,31 +118,31 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
+      "Thickness": 0.2104,
       "Material": "FR4",
       "Name": "F.Cu/GND",
       "Notes": "Type: dielectric layer 1 (from F.Cu to GND)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0152,
       "Name": "GND"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.24,
+      "Thickness": 1.065,
       "Material": "FR4",
       "Name": "GND/3V3",
       "Notes": "Type: dielectric layer 2 (from GND to 3V3)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0152,
       "Name": "3V3"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
+      "Thickness": 0.2104,
       "Material": "FR4",
       "Name": "3V3/B.Cu",
       "Notes": "Type: dielectric layer 3 (from 3V3 to B.Cu)"
