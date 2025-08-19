@@ -23,15 +23,7 @@ to do:
 
 
 
-- figure out where to connect a usb_noe (MCU) and usb_id (usb micro)
 
-
-
-- consider bigger fuse (buy 2 types in 0603 package) (finally 300mA in the same package)
-
-- put logo on it
-
-- finish excel with elements (update after resistor changesS)
 
 
 
@@ -56,5 +48,13 @@ done:
 - make smooth edges (done)
 - find pros and cons about connecting usb-c port shield to shield (connected to gnd with micro usb, in others evals it is connected to gnd)
 - choose ferrite bead (done)
+- figure out where to connect a usb_noe (MCU) and usb_id (usb micro) (done)
 
+
+
+- consider bigger fuse (buy 2 types in 0603 package) (finally 300mA in the same package) (done)
+
+- put logo on it (done
+
+- finish excel with elements (update after resistor changesS) (done)
 
